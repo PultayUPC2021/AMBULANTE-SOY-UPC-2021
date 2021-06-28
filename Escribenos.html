@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Escribenos</title>
+    <link rel="stylesheet" href="CSS/estilos.css">
+    <link rel="stylesheet" type="text/css" href="engine1/style.css">
+    <script type="text/javascript" src="engine1/jquery.js"></script>
+    <link rel="stylesheet" type="text/css" href="CSS/estilo_loader.css">
+    <link rel="icon" type="image/png" href="Icon/escribenos.png">
+    <link rel="stylesheet" type="text/css" href="CSS/estilos_escribenos.css">
+    <link rel="stylesheet" type="text/css" href="CSS/estilos_formulario.css">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="Js/fondo.js"></script>
+    </head>
+    <body class="bit">
+        <div class="fondox" id="pantalla">
+        <div class="loader-general">
+            <div class="loader"></div>
+            <div class="loader2"></div>
+        </div>
+        </div>
+    <section class="titulo">
+        <h1 id="fgh" class="animated bounceInDown delay-1s"><img src="Img/logo.png">Mercado "AMBULANTE SOY"</h1>
+    <script type="text/javascript" src="Js/animation.js"></script>
+    </section>
+    <nav class="navegacion">
+        <ul class="menu">
+            <li class="icono-lineal">
+                <a href="Index.html">
+                    <img src="Img/home.jpg" alt="" class="imagen">
+                    <span class="text-item">Inicio</span>
+                    <span class="down-item"></span>
+                </a>
+            </li>
+            <li>
+                <a href="servicios.html">
+                    <img src="Img/servicios.jpg" alt="" class="imagen">
+                    <span class="text-item">Entrega</span>
+                    <span class="down-item"></span>
+                </a>
+            </li>
+            <li>
+                <a href="Productos.html">
+                    <img src="Img/web.jpg" alt="" class="imagen">
+                    <span class="text-item">Productos</span>
+                    <span class="down-item"></span>
+                </a>
+            </li>
+            <li>
+                <a href="Escribenos.html">
+                    <img src="Img/blog.jpg" alt="" class="imagen">
+                    <span class="text-item">Escribenos</span>
+                    <span class="down-item"></span>
+                </a>
+            </li>           
+        </ul>
+    </nav>            <div class="fpf">
+        <form action="PHP/envio.php" method="post" class="form">
+            <div class="formcabeza">
+                <h1 class="dfd">C<span>ontacto</span></h1>           
+            </div>
+            
+            <label for="nombre" class="form-lal">Nombres:</label>
+            <input type="text" name="nombre" id="nombre"   class="form-input" placeholder="Escriba su nombre" required>
+            
+            <label for="apellido" class="form-lal">Apellidos:</label>
+            <input type="text" name="apellido" id="apellido" class="form-input" placeholder="Escriba sus apellidos" required>
+            
+            <label for="asunto" class="form-lal">Productos a comprar:</label>
+            <input type="text" name="motivo" id="motivo" class="form-input" placeholder="Escriba el codigo de cada uno de los productos a comprar" required>
+            
+            <label for="correo" class="form-lal">Telefono:</label>
+            <input type="text" name="correo" id="correo" class="form-input" placeholder="Escriba su telefono celular" required>
+            
+            <label for="direccion" class="form-lal">Direccion:</label>
+            <input type="text" name="motivo" id="motivo" class="form-input" placeholder="Escriba la direccion de su vivienda" required>
+            
+            <label for="sugerencia" class="form-lal">Sugerencia o Reclamo:</label>
+            <textarea name="mensaje" id="sugerencia" class="form-texto" placeholder="Escriba aqui su mensaje"></textarea>
+            
+            <input type="submit" class="boton-enviar" value="Enviar Consulta">
+        </form>
+    </div>
+        <footer>
+    <div class="contenedor_total"> 
+    <div class="contenedor2">
+         <div class="columna">
+             <h1>Mayor información Contactanos al:</h1>
+             <div class="contactos">
+             <img src="Icon/house.png">
+                 <label>Telf: +01 7543015</label>
+             </div>
+             <div class="contactos">
+             <img src="Icon/smartphone.png">
+                 <label>Celular_1: +51 957 904 959</label>
+             </div>
+             <div class="contactos">
+             <img src="Icon/smartphone.png">
+                 <label>Celular_2: +51 929 966 790</label>
+             </div>
+             <div class="contactos">
+             <img src="Icon/contact.png">
+                 <label>gng6564@gmail.com</label>
+             </div>
+         </div>
+         <div class="columna2">
+             <h1>Redes Sociales</h1>
+             <div class="redes">
+             <a href=""><img src="Icon/facebook.png"></a>
+                 <label>Siguenos en Facebook</label>
+             </div>
+             <div class="redes">
+             <a href=""><img src="Icon/twitter.png"></a>
+                 <label>Siguenos en Twiter</label>
+             </div>
+             <div class="redes">
+             <a href=""><img src="Icon/instagram.png"></a>
+                 <label>Siguenos en Instagram</label>
+             </div> 
+         </div>
+    </div>
+    </div>
+        <div class="tasto">
+         <div class="abajo">
+           <div class="copyright">
+               ®2021 Todos los derechos Reservados (UPC - Ingenieria mecatronica - 2021-1)
+            </div> 
+        </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="Js/loader.js"></script>
+    </body>
+</html>

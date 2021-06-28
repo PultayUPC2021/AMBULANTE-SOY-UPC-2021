@@ -1,0 +1,152 @@
+    @import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+body {
+    background: url(../Img/Fondo_Pagina.jpg);
+    border-image-repeat:;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.primero {
+    margin: auto;
+    margin-top: 70px;
+    width: 1000px;
+    height: 450px;
+}
+.objetivo {
+    font-family: 'Courgette', cursive;
+    float: left; 
+    margin-top: 50px;
+    margin-left: 25px;
+    width: 350px;
+    height: 350px;
+    background:rgba(243, 163, 55,.9);
+	box-shadow:0 5px 5px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+}
+.objetivo h2 {
+	color:#fff;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+ 
+.objetivo hr {
+	background:#F64740;
+	height:5px;
+	border:none;
+}
+ 
+.objetivo p {
+	line-height: 25px;
+    text-align: justify;
+    padding: 10px;
+}
+ 
+.objetivo h2, .objetivo p, .objetivo hr {
+	margin-bottom: 15px;
+}
+.imagen1 {
+    float: right;
+    margin-top: 80px;
+    margin-right: 50px;
+    width: 450px;
+    height: 280px;
+    background:url(../Img/objetivos.png);
+    border-radius: 40px;
+}
+.informacion {
+    position: absolute;
+    overflow:hidden;
+    width: 450px;
+    height: 280px;
+    background-color: rgba(31, 31, 31, 0.9);
+    opacity: 0;
+    border-radius: 40px;
+    transition:all .5s ease-in-out;
+}
+
+.imagen1:hover .informacion {
+    opacity: 1;
+}
+.opaco{
+    position: auto;
+    margin-top: 300px;
+    text-align: center;
+    font-size: 30px;
+    -webkit-transition:margin 0.8s;
+    color: #fff;
+}
+.imagen1:hover .opaco {
+    margin-top: 100px;
+}
+.segundo {
+    margin: auto;
+    margin-top: 50px;
+    width: 1000px;
+    height: 450px;
+    margin-bottom: 50px;
+}
+.objetivo2 {
+    font-family: 'Courgette', cursive;
+    float: right;
+    margin-top: 50px;
+    margin-right: 50px;
+    width: 350px;
+    height: 350px;
+    background:rgba(243, 163, 55,.9);
+	box-shadow:0 5px 5px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+}
+.objetivo2 h2 {
+	color:#fff;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+ 
+.objetivo2 hr {
+	background:#F64740;
+	height:5px;
+	border:none;
+}
+ 
+.objetivo2 p {
+	line-height: 25px;
+    text-align: justify;
+    padding: 10px;
+}
+ 
+.objetivo2 h2, .objetivo2 p, .objetivo2 hr {
+	margin-bottom: 15px;
+}
+.imagen2 {
+    float: left;
+    margin-top: 80px;
+    margin-left: 25px;
+    width: 450px;
+    height: 300px;
+    background: url(../Img/compromiso.png);
+    border-radius: 40px;
+}
+.informacion2 {
+    position: absolute;
+    overflow:hidden;
+    width: 450px;
+    height: 300px;
+    background-color: rgba(31, 31, 31, 0.9);
+    opacity: 0;
+    border-radius: 40px;
+    transition:all .5s ease-in-out;
+}
+
+.imagen2:hover .informacion2 {
+    opacity: 1;
+}
+.opaco1{
+    position: auto;
+    margin-top: 300px;
+    text-align: center;
+    font-size: 30px;
+    -webkit-transition:margin 0.8s;
+    color: #fff;
+}
+.imagen2:hover .opaco1 {
+    margin-top: 100px;
+}

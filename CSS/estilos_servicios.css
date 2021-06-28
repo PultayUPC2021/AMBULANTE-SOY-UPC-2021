@@ -1,0 +1,224 @@
+    @import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+body {
+    background: url(../Img/entrega_1.jpg);
+    border-image-repeat:;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.primero {
+    margin: auto;
+    margin-top: 90px;
+    width: 1000px;
+    height: 300px;
+}
+.pr {
+    font-family: 'Courgette', cursive;
+    float: left;
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 300px;
+    height: 250px;
+    background:rgba(243, 163, 55,.9);
+	box-shadow:0 5px 5px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+}
+.pr h2 {
+	color:#fff;
+    margin-left: 80px;
+    margin-top: 15px;
+}
+ 
+.pr hr {
+	background:#F64740;
+	height:5px;
+	border:none;
+}
+ 
+.pr p {
+	line-height: 25px;
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 25px;
+}
+ 
+.pr h2, .pr p, .pr hr {
+	margin-bottom: 25px;
+}
+.rotomartillo {
+    float: right;
+    margin-top: 20px;
+    margin-right: 0px;
+    width: 450px;
+    height: 280px;
+    border-radius: 40px;
+}
+.informacion {
+    position: absolute;
+    overflow:hidden;
+    width: 450px;
+    height: 280px;
+    background-color: rgba(31, 31, 31, 0.9);
+    opacity: 0;
+    border-radius: 40px;
+    transition:all .5s ease-in-out;
+}
+
+.rotomartillo:hover .informacion {
+    opacity: 1;
+}
+.opaco{
+    position: auto;
+    margin-top: 300px;
+    text-align: center;
+    font-size: 30px;
+    -webkit-transition:margin 0.8s;
+    color: #fff;
+}
+.rotomartillo:hover .opaco {
+    margin-top: 100px;
+}
+.segundo {
+    margin: auto;
+    margin-top: 0px;
+    width: 1000px;
+    height: 300px;
+    margin-bottom: 120px;
+}
+.sl {
+    font-family: 'Courgette', cursive;
+    float: right;
+    margin-top: 125px;
+    margin-right: 75px;
+    width: 300px;
+    height: 200px;
+    background:rgba(243, 163, 55,.9);
+	box-shadow:0 5px 5px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+}
+.sl h2 {
+	color:#fff;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+ 
+.sl hr {
+	background:#F64740;
+	height:5px;
+	border:none;
+}
+ 
+.sl p {
+	line-height: 25px;
+    text-align: justify;
+    padding: 10px;
+}
+ 
+.sl h2, .sl p, .sl hr {
+	margin-bottom: 15px;
+}
+.ladrillos {
+    float: left;
+    margin-top: 100px;
+    width: 400px;
+    height: 250px;
+    border-radius: 40px;
+}
+.informacion2 {
+    position: absolute;
+    overflow: hidden;
+    width: 400px;
+    height: 250px;
+    background-color: rgba(31, 31, 31, 0.9);
+    opacity: 0;
+    border-radius: 40px;
+    transition:all .5s ease-in-out;
+}
+
+.ladrillos:hover .informacion2 {
+    opacity: 1;
+}
+.opaco1{
+    position: auto;
+    margin-top: 200px;
+    text-align: center;
+    font-size: 30px;
+    -webkit-transition:margin 0.8s;
+    color: #fff;
+}
+.ladrillos:hover .opaco1 {
+    margin-top: 100px;
+}
+
+.tercero {
+    margin: auto;
+    margin-top: 10px;
+    width: 1000px;
+    height: 300px;
+    margin-bottom: 60px;
+}
+.tm {
+    font-family: 'Courgette', cursive;
+    float: left;
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 300px;
+    height: 250px;
+    background:rgba(243, 163, 55,.9);
+	box-shadow:0 5px 5px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+}
+.tm h2 {
+    color:#fff;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+ 
+.tm hr {
+    background:#F64740;
+    height:5px;
+    border:none;
+}
+ 
+.tm p {
+    line-height: 25px;
+    text-align: justify;
+    padding: 10px;
+}
+ 
+.tm h2, .tm p, .tm hr {
+    margin-bottom: 15px;
+}
+.maquina {
+    margin-top: 0px;
+    float: right;
+    margin-right: 0px;
+    width: 450px;
+    height: 300px;
+    border-radius: 40px;
+}
+.informacion3 {
+    position: absolute;
+    overflow:hidden;
+    width: 450px;
+    height: 300px;
+    background-color: rgba(31, 31, 31, 0.9);
+    opacity: 0;
+    border-radius: 40px;
+    transition:all .5s ease-in-out;
+}
+
+.maquina:hover .informacion3 {
+    opacity: 1;
+}
+.opaco2{
+    position: auto;
+    margin-top: 300px;
+    text-align: center;
+    font-size: 30px;
+    -webkit-transition:margin 0.8s;
+    color: #fff;
+}
+.maquina:hover .opaco2 {
+    margin-top: 100px;
+}

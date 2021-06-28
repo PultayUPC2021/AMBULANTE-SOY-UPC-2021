@@ -1,0 +1,194 @@
+.overlay10{
+	z-index: 2;
+	background: rgba(0,0,0,0.3);
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	visibility: hidden;
+}
+.overlay10.active{
+	visibility: visible;
+}
+.popup10{
+	background: #f8f8f8;
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+	border-radius: 30px;
+	font-family: 'Neucha', cursive;
+	padding: 20px;
+	text-align: center;
+	width: 600px;
+	transition: .6s ease all;
+	transform: scale(0.7);
+	opacity: 0;
+}
+.popup10 .btn-cerrar-popup10{
+	font-size: 16px;
+	line-height: 16px;
+	display: block;
+	text-align: right;
+	color: #BBBBBB;
+	transition: .3s ease all;
+}
+.popup10 .btn-cerrar-popup10:hover{
+	color: #000;
+}
+.popup10 h3{
+	font-size: 36px;
+	font-weight: 600;
+	margin-bottom: 10px;
+	opacity: 0;
+}
+.popup10 p{
+	font-size: 20px;
+	font-weight: 300;
+	margin-top: 40px;
+	opacity: 0;
+}
+.popup10 img{
+	opacity: 0;
+}
+.popup10.active{
+	opacity: 1;
+	transform: scale(1);
+}
+.popup10.active h3{
+	animation: entradaTitulo 0.8s ease .5s forwards;
+}
+.popup10.active p{
+	animation: entradasTitulo 0.8s ease .5s forwards;
+}
+.popup10.active img{
+	animation: entradassTitulo 0.8s ease .5s forwards;
+}
+@keyframes entradaTitulo{
+	from{
+		transform: translateY(-40px);
+		opacity: 0;
+	}
+	to{
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+@keyframes entradasTitulo{
+	from{
+		transform: translateY(40px);
+		opacity: 0;
+	}
+	to{
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+@keyframes entradassTitulo{
+	from{
+		transform: translateX(80px);
+		opacity: 0;
+	}
+	to{
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+.overlay11{
+	z-index: 2;
+	background: rgba(0,0,0,0.3);
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	visibility: hidden;
+}
+.overlay11.active{
+	visibility: visible;
+}
+.popup11{
+	background: #f8f8f8;
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+	border-radius: 30px;
+	font-family: 'Neucha', cursive;
+	padding: 20px;
+	text-align: center;
+	width: 600px;
+	transition: .6s ease all;
+	transform: scale(0.7);
+	opacity: 0;
+}
+.popup11 .btn-cerrar-popup11{
+	font-size: 16px;
+	line-height: 16px;
+	display: block;
+	text-align: right;
+	color: #BBBBBB;
+	transition: .3s ease all;
+}
+.popup11 .btn-cerrar-popup11:hover{
+	color: #000;
+}
+.popup11 h3{
+	font-size: 36px;
+	font-weight: 600;
+	margin-bottom: 10px;
+	opacity: 0;
+}
+.popup11 p{
+	font-size: 20px;
+	font-weight: 300;
+	margin-top: 40px;
+	opacity: 0;
+}
+.popup11 img{
+	opacity: 0;
+}
+.popup11.active{
+	opacity: 1;
+	transform: scale(1);
+}
+.popup11.active h3{
+	animation: entradaTitulo 0.8s ease .5s forwards;
+}
+.popup11.active p{
+	animation: entradasTitulo 0.8s ease .5s forwards;
+}
+.popup11.active img{
+	animation: entradassTitulo 0.8s ease .5s forwards;
+}
+@keyframes entradaTitulo{
+	from{
+		transform: translateY(-40px);
+		opacity: 0;
+	}
+	to{
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+@keyframes entradasTitulo{
+	from{
+		transform: translateY(40px);
+		opacity: 0;
+	}
+	to{
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+@keyframes entradassTitulo{
+	from{
+		transform: translateX(80px);
+		opacity: 0;
+	}
+	to{
+		transform: translateY(0);
+		opacity: 1;
+	}
+}

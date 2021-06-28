@@ -1,0 +1,25 @@
+    @import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url(../Img/mercado-1.jpg);
+    border-image-repeat:;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.pop{
+    z-index: 40;
+}
+.boxfirts{
+    height: 600px;
+    width: 100%;
+    padding-top: 150px;
+}
+.terete h1{
+    font-family: 'Courgette', cursive;
+    font-size: 25px;
+    padding-top: 0;
+    color: #000;
+    text-align: center;
+}

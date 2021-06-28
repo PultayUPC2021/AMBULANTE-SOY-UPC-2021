@@ -1,0 +1,61 @@
+.fpf{
+    padding: 80px;
+}
+.fpf .form .formcabeza .dfd{
+    font-weight: normal;
+    font-family: ;
+    color: #F5C00E;
+    text-align: center;
+    padding: 14px 0;
+}
+.fpf .form .formcabeza .dfd span {
+    color: #F5C00E;
+}
+.fpf .form {
+    background: rgba(0,0,0,.6);
+    width: 90%;
+    max-width: 650px;
+    margin: auto;
+    padding: 5px 35px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 3px;
+}
+.fpf .form .form-lal {
+    display: block;
+    color: #ff851b;
+    font-size: 16px;
+    position: relative;
+}
+.fpf .form .form-input, .form-texto {
+    background: rgba(0,0,0,.7);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #ff851b;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    font-size: 14px;
+    color: white;
+}
+.fpf .form .form-texto {
+    resize: vertical;
+    max-height: 150px;
+    min-height: 50px;
+}
+
+.fpf .form .boton-enviar {
+    width: 100%;
+    outline: none;
+    background: #ff851b;
+    font-size: 16px;
+    border: none;
+    color: white;
+    padding: 15px 0;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+.fpf .form .boton-enviar:hover {
+    background: #F5900E;
+}

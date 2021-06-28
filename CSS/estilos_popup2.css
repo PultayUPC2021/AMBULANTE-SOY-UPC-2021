@@ -1,0 +1,488 @@
+
+.overlay5{
+	z-index: 2;
+	background: rgba(0,0,0,0.3);
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	visibility: hidden;
+}
+.overlay5.active{
+	visibility: visible;
+}
+.popup5{
+	background: #f8f8f8;
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+	border-radius: 30px;
+	font-family: 'Neucha', cursive;
+	padding: 20px;
+	text-align: center;
+	width: 600px;
+	transition: .6s ease all;
+	transform: scale(0.7);
+	opacity: 0;
+}
+.popup5 .btn-cerrar-popup5{
+	font-size: 16px;
+	line-height: 16px;
+	display: block;
+	text-align: right;
+	color: #BBBBBB;
+	transition: .3s ease all;
+}
+.popup5 .btn-cerrar-popup5:hover{
+	color: #000;
+}
+.popup5 h3{
+	font-size: 36px;
+	font-weight: 600;
+	margin-bottom: 10px;
+	opacity: 0;
+}
+.popup5 p{
+	font-size: 20px;
+	font-weight: 300;
+	margin-top: 40px;
+	opacity: 0;
+}
+.popup5 img{
+	opacity: 0;
+}
+.popup5.active{
+	opacity: 1;
+	transform: scale(1);
+}
+.popup5.active h3{
+	animation: entradaTitulo 0.8s ease .5s forwards;
+}
+.popup5.active p{
+	animation: entradasTitulo 0.8s ease .5s forwards;
+}
+.popup5.active img{
+	animation: entradassTitulo 0.8s ease .5s forwards;
+}
+@keyframes entradaTitulo{
+	from{
+		transform: translateY(-40px);
+		opacity: 0;
+	}
+	to{
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+@keyframes entradasTitulo{
+	from{
+		transform: translateY(40px);
+		opacity: 0;
+	}
+	to{
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+@keyframes entradassTitulo{
+	from{
+		transform: translateX(80px);
+		opacity: 0;
+	}
+	to{
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+.overlay6{
+	z-index: 2;
+	background: rgba(0,0,0,0.3);
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	visibility: hidden;
+}
+.overlay6.active{
+	visibility: visible;
+}
+.popup6{
+	background: #f8f8f8;
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+	border-radius: 30px;
+	font-family: 'Neucha', cursive;
+	padding: 20px;
+	text-align: center;
+	width: 600px;
+	transition: .6s ease all;
+	transform: scale(0.7);
+	opacity: 0;
+}
+.popup6 .btn-cerrar-popup6{
+	font-size: 16px;
+	line-height: 16px;
+	display: block;
+	text-align: right;
+	color: #BBBBBB;
+	transition: .3s ease all;
+}
+.popup6 .btn-cerrar-popup6:hover{
+	color: #000;
+}
+.popup6 h3{
+	font-size: 36px;
+	font-weight: 600;
+	margin-bottom: 10px;
+	opacity: 0;
+}
+.popup6 p{
+	font-size: 20px;
+	font-weight: 300;
+	margin-top: 40px;
+	opacity: 0;
+}
+.popup6 img{
+	opacity: 0;
+}
+.popup6.active{
+	opacity: 1;
+	transform: scale(1);
+}
+.popup6.active h3{
+	animation: entradaTitulo 0.8s ease .5s forwards;
+}
+.popup6.active p{
+	animation: entradasTitulo 0.8s ease .5s forwards;
+}
+.popup6.active img{
+	animation: entradassTitulo 0.8s ease .5s forwards;
+}
+@keyframes entradaTitulo{
+	from{
+		transform: translateY(-40px);
+		opacity: 0;
+	}
+	to{
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+@keyframes entradasTitulo{
+	from{
+		transform: translateY(40px);
+		opacity: 0;
+	}
+	to{
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+@keyframes entradassTitulo{
+	from{
+		transform: translateX(80px);
+		opacity: 0;
+	}
+	to{
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+.overlay7{
+	z-index: 2;
+	background: rgba(0,0,0,0.3);
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	visibility: hidden;
+}
+.overlay7.active{
+	visibility: visible;
+}
+.popup7{
+	background: #f8f8f8;
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+	border-radius: 30px;
+	font-family: 'Neucha', cursive;
+	padding: 20px;
+	text-align: center;
+	width: 600px;
+	transition: .6s ease all;
+	transform: scale(0.7);
+	opacity: 0;
+}
+.popup7 .btn-cerrar-popup7{
+	font-size: 16px;
+	line-height: 16px;
+	display: block;
+	text-align: right;
+	color: #BBBBBB;
+	transition: .3s ease all;
+}
+.popup7 .btn-cerrar-popup7:hover{
+	color: #000;
+}
+.popup7 h3{
+	font-size: 36px;
+	font-weight: 600;
+	margin-bottom: 10px;
+	opacity: 0;
+}
+.popup6 p{
+	font-size: 20px;
+	font-weight: 300;
+	margin-top: 40px;
+	opacity: 0;
+}
+.popup7 img{
+	opacity: 0;
+}
+.popup7.active{
+	opacity: 1;
+	transform: scale(1);
+}
+.popup7.active h3{
+	animation: entradaTitulo 0.8s ease .5s forwards;
+}
+.popup7.active p{
+	animation: entradasTitulo 0.8s ease .5s forwards;
+}
+.popup7.active img{
+	animation: entradassTitulo 0.8s ease .5s forwards;
+}
+@keyframes entradaTitulo{
+	from{
+		transform: translateY(-40px);
+		opacity: 0;
+	}
+	to{
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+@keyframes entradasTitulo{
+	from{
+		transform: translateY(40px);
+		opacity: 0;
+	}
+	to{
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+@keyframes entradassTitulo{
+	from{
+		transform: translateX(80px);
+		opacity: 0;
+	}
+	to{
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+.overlay8{
+	z-index: 2;
+	background: rgba(0,0,0,0.3);
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	visibility: hidden;
+}
+.overlay8.active{
+	visibility: visible;
+}
+.popup8{
+	background: #f8f8f8;
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+	border-radius: 30px;
+	font-family: 'Neucha', cursive;
+	padding: 20px;
+	text-align: center;
+	width: 600px;
+	transition: .6s ease all;
+	transform: scale(0.7);
+	opacity: 0;
+}
+.popup8 .btn-cerrar-popup8{
+	font-size: 16px;
+	line-height: 16px;
+	display: block;
+	text-align: right;
+	color: #BBBBBB;
+	transition: .3s ease all;
+}
+.popup8 .btn-cerrar-popup8:hover{
+	color: #000;
+}
+.popup8 h3{
+	font-size: 36px;
+	font-weight: 600;
+	margin-bottom: 10px;
+	opacity: 0;
+}
+.popup8 p{
+	font-size: 20px;
+	font-weight: 300;
+	margin-top: 40px;
+	opacity: 0;
+}
+.popup8 img{
+	opacity: 0;
+}
+.popup8.active{
+	opacity: 1;
+	transform: scale(1);
+}
+.popup8.active h3{
+	animation: entradaTitulo 0.8s ease .5s forwards;
+}
+.popup8.active p{
+	animation: entradasTitulo 0.8s ease .5s forwards;
+}
+.popup8.active img{
+	animation: entradassTitulo 0.8s ease .5s forwards;
+}
+@keyframes entradaTitulo{
+	from{
+		transform: translateY(-40px);
+		opacity: 0;
+	}
+	to{
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+@keyframes entradasTitulo{
+	from{
+		transform: translateY(40px);
+		opacity: 0;
+	}
+	to{
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+@keyframes entradassTitulo{
+	from{
+		transform: translateX(80px);
+		opacity: 0;
+	}
+	to{
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+.overlay9{
+	z-index: 2;
+	background: rgba(0,0,0,0.3);
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	visibility: hidden;
+}
+.overlay9.active{
+	visibility: visible;
+}
+.popup9{
+	background: #f8f8f8;
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+	border-radius: 30px;
+	font-family: 'Neucha', cursive;
+	padding: 20px;
+	text-align: center;
+	width: 600px;
+	transition: .6s ease all;
+	transform: scale(0.7);
+	opacity: 0;
+}
+.popup9 .btn-cerrar-popup9{
+	font-size: 16px;
+	line-height: 16px;
+	display: block;
+	text-align: right;
+	color: #BBBBBB;
+	transition: .3s ease all;
+}
+.popup9 .btn-cerrar-popup9:hover{
+	color: #000;
+}
+.popup9 h3{
+	font-size: 36px;
+	font-weight: 600;
+	margin-bottom: 10px;
+	opacity: 0;
+}
+.popup9 p{
+	font-size: 20px;
+	font-weight: 300;
+	margin-top: 40px;
+	opacity: 0;
+}
+.popup9 img{
+	opacity: 0;
+}
+.popup9.active{
+	opacity: 1;
+	transform: scale(1);
+}
+.popup9.active h3{
+	animation: entradaTitulo 0.8s ease .5s forwards;
+}
+.popup9.active p{
+	animation: entradasTitulo 0.8s ease .5s forwards;
+}
+.popup9.active img{
+	animation: entradassTitulo 0.8s ease .5s forwards;
+}
+@keyframes entradaTitulo{
+	from{
+		transform: translateY(-40px);
+		opacity: 0;
+	}
+	to{
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+@keyframes entradasTitulo{
+	from{
+		transform: translateY(40px);
+		opacity: 0;
+	}
+	to{
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+@keyframes entradassTitulo{
+	from{
+		transform: translateX(80px);
+		opacity: 0;
+	}
+	to{
+		transform: translateY(0);
+		opacity: 1;
+	}
+}

@@ -1,0 +1,31 @@
+    @import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+body {
+    background: url(../Img/tiendi.jpg);
+    border-image-repeat:;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.conten {
+    margin: 0 180px; margin-top: 150px;
+    max-width: 1000px;
+    height: 305px;
+}
+.conten .gracias {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 25px;
+    background: white;
+    color: yellowgreen;
+}
+.conten .gracias2{
+    text-align: center;
+    font-size: 20px;
+    color: deepskyblue;
+    background: white;
+}
+@media (max-width:1000px){
+    .conten {
+        width: 100%;
+        margin: 150px 0;
+    }
+}
